@@ -1,0 +1,23 @@
+.root {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.leftItem {
+  color: white;
+  background-color: #478fb9;
+}
+.rightItem {
+  color: black;
+  background-color: #dcf8c6;
+}
+.container {
+  display: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  flex-direction: column;
+}
