@@ -1,19 +1,19 @@
-.App {
+.Loader {
   text-align: center;
 }
 
-.App-logo {
+.Loader-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .Loader-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+.Loader-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,11 +24,11 @@
   color: white;
 }
 
-.App-link {
+.Loader-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes Loader-logo-spin {
   from {
     transform: rotate(0deg);
   }
